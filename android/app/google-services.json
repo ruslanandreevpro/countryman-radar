@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1077245550967",
+    "project_id": "countryman-radar",
+    "storage_bucket": "countryman-radar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077245550967:android:4bc2f98a1ae3c6dfdf0172",
+        "android_client_info": {
+          "package_name": "com.ruslanandreevpro.countryman_radar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1077245550967-deibtd7eris059iviio53uuegmpmqra5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ruslanandreevpro.countryman_radar",
+            "certificate_hash": "823a6ebf16b5d3423596af2bf7e99de4e3a42eb3"
+          }
+        },
+        {
+          "client_id": "1077245550967-bremdlbhfkr057bhicv6itho72lai257.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg2fn7jL2sRWfFy_0VcHnj0Sdh04fTlFE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1077245550967-bremdlbhfkr057bhicv6itho72lai257.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
