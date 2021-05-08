@@ -38,17 +38,12 @@ class AuthController extends GetxController {
 
   @override
   void onClose() {
-    super.onClose();
-  }
-
-  @override
-  void dispose() {
     nameController.dispose();
     emailController.dispose();
     passwordController.dispose();
     phoneController.dispose();
     otpController.dispose();
-    super.dispose();
+    super.onClose();
   }
 
   handleAuthChanged(_firebaseUser) async {

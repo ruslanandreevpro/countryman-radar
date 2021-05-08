@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl_phone_number_input/intl_phone_number_input.dart';
+import 'package:lottie/lottie.dart';
 
 class SplashUI extends StatelessWidget {
   final GlobalController _globalController = GlobalController.to;
@@ -47,7 +48,7 @@ class SplashUI extends StatelessWidget {
                       Expanded(
                         child: Container(),
                       ),
-                      Image.asset('assets/images/logo.png', width: 290.0, height: 290.0,),
+                      Lottie.asset('assets/lottie/radar.json', width: 256.0, height: 256.0,),
                       Expanded(
                         child: Container(),
                       ),

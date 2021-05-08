@@ -11,6 +11,9 @@ class GlobalController extends GetxController {
     buildNumber: 'Unknown',
   );
 
+  double latitude = 0.0;
+  double longitude = 0.0;
+
   Future<void> initPackageInfo() async {
     final info = await PackageInfo.fromPlatform();
     packageInfo = info;
